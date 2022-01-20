@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+:root {
+    --primary-color: #f6c90e;
+    --secondary-color: #eeeeee;
+    --primary-font: #3a4750;
+    --secondary-font: #eeeeee;
+}
+
+/* Remove Arrow Type Number */
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* End Remove Arrow Type Number */
+
+/* Navbar */
+
+.navbar-custom {
+    background-color: var(--primary-color) !important;
+    color: #146356 !important;
+}
+
+.nav-link {
+    color: #146356 !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+#logo-instansi {
+    width: auto;
+    height: 60px;
+}
+
+/* End Navbar  */
+
+/* Main Layouts */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: var(--primary-font);
+}
+
+.main-box {
+    background-color: var(--secondary-color);
+    border-radius: 35px;
+    height: 500px;
+    width: 500px;
+    
+
+}
+
+.main-box h1 {
+    color: var(--primary-font);
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.2em;
+    color: #3a4750;
+}
+
+.main-box h6 {
+    color: var(--primary-font);
+    height: 140px;
+}
+
+/* End Main Layouts */
+
+/* Custom Atribut */
+
+.btn-oke {
+    background-color: var(--primary-font);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--secondary-color);
+    border-radius: 100px;
+    width: 100px;
+}
+
+.btn-oke:focus {
+    box-shadow: 0 0 0 0rem #00000000;
+}
+
+.btn-oke:hover {
+    color: white;
+    background-color: #AEAEAE;
+    box-shadow: 0 0 0 0rem #00000000;
+}
+
+
+/* End Custom Atribut */
+
+
+/* Input Code */
+
+.form-input-kode {
+    background: #dbdbdb;
+    border: 2px solid #c5c5c5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.form-input-kode:focus {
+    border-color: var(--primary-color);
+    background: #ffffff;
+    border: 2px solid #c5c5c5;
+    box-shadow: 0 0 0 0rem #00000000;
+}
+
+/* Input Code */
+
+
+/* Detail Mahasiswa*/
+
+.detail tr{
+    line-height: 60px;
+}
+
+/* End Detail Mahasiswa*/
+
+
+/* Verifikasi */
+
+.form-verifikasi {
+    background: transparent !important;
+    border: transparent !important;
+}
+
+
+/* End Verifikasi */
